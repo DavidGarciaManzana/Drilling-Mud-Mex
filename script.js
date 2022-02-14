@@ -1,4 +1,3 @@
-window.scrollTo(0, 0);
 
 // modal
 let modal = document.getElementById("modal")
@@ -931,5 +930,3 @@ for (let i = 0; i < symbolopened.length; i++) {
 
 
 
-
-window.scrollTo(0, 0);
