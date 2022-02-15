@@ -11,7 +11,7 @@ jobs:
       - name: Update files
         uses: appleboy/ssh-action@master
         env:
-          DEPLOYPATH: "/var/www/davidgarxa.com/drilling-mud-mex/"
+          DEPLOYPATH: "/var/www/davidgarxa.com/public_html/drilling-mud-mex/"
         with:
           host: ${{secrets.SSH_HOST}}
           key: ${{secrets.SSH_KEY}}
@@ -23,7 +23,6 @@ jobs:
             echo "Update repo"
             echo "$DEPLOYPATH"
             cp *.html $DEPLOYPATH
-            cp -R css/ $DEPLOYPATH
+            cp styles.css $DEPLOYPATH
             cp -R images/ $DEPLOYPATH
-            cp -R js/ $DEPLOYPATH
-            cp -R extras/ $DEPLOYPATH
+            cp script.js $DEPLOYPATH
