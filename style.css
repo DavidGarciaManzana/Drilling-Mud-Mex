@@ -160,7 +160,7 @@ li {
 .first {
     height            : 100vh;
     width             : 98.9vw;
-    background-image  : url("/images/oil3.jpg");
+    background-image  : url("images/oil3.jpg");
     background-size   : 100% 100%;
     background-repeat : no-repeat;
 }
@@ -282,7 +282,7 @@ li {
 }
 
 .front {
-    background-image  : url("/images/drilling3.jpg");
+    background-image  : url("images/drilling3.jpg");
     background-size   : contain;
     background-repeat : no-repeat;
 }
@@ -331,7 +331,7 @@ li {
 }
 
 .front2 {
-    background-image  : url("/images/drilling1.jpg");
+    background-image  : url("images/drilling1.jpg");
     background-size   : contain;
     background-repeat : no-repeat;
 }
@@ -749,7 +749,7 @@ p {
 .rigscroll {
 
     height                : 65vh;
-    background-image      : url("/images/rig.jpg");
+    background-image      : url("images/rig.jpg");
     background-attachment : fixed;
     background-size       : cover;
     background-repeat     : no-repeat;
@@ -924,7 +924,7 @@ p {
 
 
 .poorimg {
-    background-image  : url("/images/poor.jpg");
+    background-image  : url("images/poor.jpg");
     width             : 148%;
     height            : 121%;
     position          : relative;
@@ -962,7 +962,7 @@ p {
 }
 
 .richimg {
-    background-image  : url("/images/rich.jpg");
+    background-image  : url("images/rich.jpg");
     width             : 148%;
     height            : 121%;
     position          : relative;
@@ -1383,7 +1383,7 @@ fieldset {
     position          : relative;
     top               : 10%;
     left              : 34%;
-    background-image  : url("/images/mri.png");
+    background-image  : url("images/mri.png");
     background-repeat : no-repeat;
     background-size   : contain;
 }
@@ -1526,7 +1526,7 @@ fieldset {
     position          : relative;
     top               : 10%;
     left              : 34%;
-    background-image  : url("/images/mrisad.png");
+    background-image  : url("images/mrisad.png");
     background-repeat : no-repeat;
     background-size   : 101% 101%;
 }
