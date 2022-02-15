@@ -23,6 +23,6 @@ jobs:
             echo "Update repo"
             echo "$DEPLOYPATH"
             cp *.html $DEPLOYPATH
-            cp styles.css $DEPLOYPATH
+            cp style.css $DEPLOYPATH
             cp -R images/ $DEPLOYPATH
             cp script.js $DEPLOYPATH
