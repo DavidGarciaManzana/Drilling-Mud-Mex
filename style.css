@@ -68,10 +68,12 @@ body.dontscroll {
 .english {
     margin-bottom : 1em;
     font-size     : 1.9em;
+    text-align: justify;
 }
 
 .spanish {
     font-size : 1.9em;
+    text-align: center;
 }
 
 header {
