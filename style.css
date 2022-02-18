@@ -36,7 +36,7 @@ body.dontscroll {
     height           : 100%;
     background-color : rgba(0, 0, 0, .9);
 
-    z-index          : 30;
+    z-index          : 50;
     display          : flex;
     justify-content  : center;
     align-items      : center;
@@ -3189,7 +3189,8 @@ fieldset {
     height            : 350px;
     background-size   : contain;
     position          : relative;
-    top               : 144px;
+    top               : -750px;
+    left              : 155px;
     z-index           : 4;
 }
 
@@ -3217,6 +3218,8 @@ fieldset {
     z-index    : 5;
     position   : absolute;
     text-align : center;
+    top        : -835px;
+    left       : -130px;
 }
 
 .ocupation {
@@ -3224,7 +3227,8 @@ fieldset {
     position   : absolute;
     width      : 100%;
     z-index    : 20;
-    top        : 70px;
+    top        : -760px;
+    left       : -165px;
     text-align : center;
 }
 
@@ -3232,7 +3236,8 @@ fieldset {
     font-size  : 1.5rem;
     position   : absolute;
     z-index    : 20;
-    top        : 110px;
+    top        : -720px;
+    left       : -130px;
     width      : 100%;
     text-align : center;
 }
@@ -3241,12 +3246,12 @@ fieldset {
     width      : 70px;
     height     : 70px;
     position   : absolute;
-    top        : 6450px;
-    left       : 33%;
+    top        : -20px;
+    left       : 50px;
     opacity    : .2;
     transform  : scale(.8);
     transition : 2s;
-    z-index    : 40;
+    z-index    : 30;
 }
 
 .github.animated {
@@ -3261,8 +3266,8 @@ fieldset {
     width             : 70px;
     height            : 70px;
     position          : absolute;
-    top               : 6450px;
-    left              : 40.4%;
+    top               : -20px;
+    left              : 170px;
     opacity           : .2;
     transform         : scale(.8);
     z-index           : 40;
@@ -3276,8 +3281,8 @@ fieldset {
     width     : 70px;
     height    : 70px;
     position  : absolute;
-    top       : 6450px;
-    left      : 55%;
+    top       : -20px;
+    right: 170px;
     opacity   : .2;
     transform : scale(.8);
     z-index   : 40;
@@ -3291,8 +3296,8 @@ fieldset {
     width     : 70px;
     height    : 70px;
     position  : absolute;
-    top       : 6450px;
-    left      : 62.3%;
+    top       : -20px;
+    right     : 50px;
     opacity   : .2;
     transform : scale(.8);
     z-index   : 40;
@@ -3310,8 +3315,8 @@ fieldset {
     width             : 70px;
     height            : 70px;
     position          : absolute;
-    top               : 6450px;
-    left              : 47.6%;
+    top               : -20px;
+    left              : 290px;
     opacity           : .2;
     transform         : scale(.8);
     z-index           : 40;
