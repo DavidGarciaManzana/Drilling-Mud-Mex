@@ -68,12 +68,12 @@ body.dontscroll {
 .english {
     margin-bottom : 1em;
     font-size     : 1.9em;
-    text-align: center;
+    text-align    : center;
 }
 
 .spanish {
-    font-size : 1.9em;
-    text-align: center;
+    font-size  : 1.9em;
+    text-align : center;
 }
 
 header {
@@ -937,7 +937,7 @@ p {
     height        : 63%;
     width         : 75%;
     position      : relative;
-    top           : 10%;
+    top           : 80px;
     left          : 12%;
     border-radius : 25px;
 }
@@ -3223,6 +3223,7 @@ fieldset {
     opacity    : .2;
     transform  : scale(.8);
     transition : 2s;
+    z-index: 40;
 }
 
 .github.animated {
@@ -3241,6 +3242,7 @@ fieldset {
     left              : 40.4%;
     opacity           : .2;
     transform         : scale(.8);
+    z-index: 40;
 }
 
 .telegram.animated {
@@ -3255,6 +3257,7 @@ fieldset {
     left      : 55%;
     opacity   : .2;
     transform : scale(.8);
+    z-index: 40;
 }
 
 .linkedin.animated {
@@ -3269,6 +3272,7 @@ fieldset {
     left      : 62.3%;
     opacity   : .2;
     transform : scale(.8);
+    z-index: 40;
 
 }
 
@@ -3287,6 +3291,7 @@ fieldset {
     left              : 47.6%;
     opacity           : .2;
     transform         : scale(.8);
+    z-index: 40;
 
 }
 
