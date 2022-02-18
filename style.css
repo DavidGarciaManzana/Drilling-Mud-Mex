@@ -3133,7 +3133,9 @@ fieldset {
     display          : flex;
     justify-content  : center;
     align-items      : center;
+    position         : relative;
 }
+
 
 .cardsupreme {
     width            : 650px;
@@ -3141,6 +3143,7 @@ fieldset {
     background-color : red;
     overflow         : hidden;
     border-radius    : 25px;
+    position         : relative;
 }
 
 .cardsupreme:hover {
@@ -3156,8 +3159,10 @@ fieldset {
     top              : -166.8px;
     left             : -43%;
     transform        : rotateZ(-21.4deg);
-    z-index          : 10;
+    z-index          : 1;
+    display          : flex;
 }
+
 
 .secondcolor {
     background-color : #880044;
@@ -3165,8 +3170,16 @@ fieldset {
     height           : 480px;
     position         : relative;
     top              : -115px;
+    z-index          : 2;
     left             : -39px;
+    display          : flex;
     transform        : rotateZ(-21.4deg);
+}
+
+.profilecard {
+    position : absolute;
+    z-index  : 3;
+    width    : 100%;
 }
 
 .profileimg {
@@ -3175,43 +3188,53 @@ fieldset {
     width             : 350px;
     height            : 350px;
     background-size   : contain;
-    position          : absolute;
-    top               : 6069px;
-    left              : 40%;
-    z-index           : 20;
+    position          : relative;
+    top               : 144px;
+    z-index           : 4;
+}
+
+
+.contacticons {
+    position   : absolute;
+    width      : 100%;
+    text-align : center;
+    top        : 475px;
+    z-index    : 40;
 }
 
 .patch {
     background-color : #880044;
     width            : 104px;
     height           : 50px;
-    position         : absolute;
-    top              : 85%;
-    left             : 68%;
+    position         : relative;
+    top              : 300px;
+    left             : 230px;
 }
 
 .name {
-    font-size : 4rem;
-    position  : absolute;
-    top       : 6010px;
-    left      : 30%;
-    z-index   : 20;
+    font-size  : 4rem;
+    width      : 100%;
+    z-index    : 5;
+    position   : absolute;
+    text-align : center;
 }
 
 .ocupation {
-    font-size : 1.5rem;
-    position  : absolute;
-    top       : 6083px;
-    left      : 31%;
-    z-index   : 20;
+    font-size  : 1.5rem;
+    position   : absolute;
+    width      : 100%;
+    z-index    : 20;
+    top        : 70px;
+    text-align : center;
 }
 
 .ocupation2 {
-    font-size : 1.5rem;
-    position  : absolute;
-    top       : 6123px;
-    left      : 33%;
-    z-index   : 20;
+    font-size  : 1.5rem;
+    position   : absolute;
+    z-index    : 20;
+    top        : 110px;
+    width      : 100%;
+    text-align : center;
 }
 
 .github {
@@ -3223,7 +3246,7 @@ fieldset {
     opacity    : .2;
     transform  : scale(.8);
     transition : 2s;
-    z-index: 40;
+    z-index    : 40;
 }
 
 .github.animated {
@@ -3242,7 +3265,7 @@ fieldset {
     left              : 40.4%;
     opacity           : .2;
     transform         : scale(.8);
-    z-index: 40;
+    z-index           : 40;
 }
 
 .telegram.animated {
@@ -3257,7 +3280,7 @@ fieldset {
     left      : 55%;
     opacity   : .2;
     transform : scale(.8);
-    z-index: 40;
+    z-index   : 40;
 }
 
 .linkedin.animated {
@@ -3272,7 +3295,7 @@ fieldset {
     left      : 62.3%;
     opacity   : .2;
     transform : scale(.8);
-    z-index: 40;
+    z-index   : 40;
 
 }
 
@@ -3291,7 +3314,7 @@ fieldset {
     left              : 47.6%;
     opacity           : .2;
     transform         : scale(.8);
-    z-index: 40;
+    z-index           : 40;
 
 }
 
@@ -3333,3 +3356,24 @@ fieldset {
 .special {
     font-style : italic;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
