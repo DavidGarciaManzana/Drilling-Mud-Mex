@@ -8,68 +8,79 @@ body {
     overflow-x : hidden;
 
 }
+
 body.dontscroll {
-    overflow: hidden;
+    overflow : hidden;
 }
+
 :root {
-    --modal-content-font-size: 16px;
-    --close-font-size: 3rem;
+    --modal-content-font-size : 16px;
+    --close-font-size         : 3rem;
 
 }
-@media screen and (min-height: 1024px) {
+
+@media screen and (min-height : 1024px) {
     :root {
-        --modal-content-font-size: 2.5rem;
-        --close-font-size: 6rem;
+        --modal-content-font-size : 2.5rem;
+        --close-font-size         : 6rem;
     }
 }
+
 .modal {
-    display: none;
+    display : none;
 }
+
 .modal.show {
-    position: fixed;
-    width : 100%;
-    height : 100%;
-    background-color : black;
-    opacity: .9;
-    z-index: 30;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position         : fixed;
+    width            : 100%;
+    height           : 100%;
+    background-color : rgba(0, 0, 0, .9);
+
+    z-index          : 30;
+    display          : flex;
+    justify-content  : center;
+    align-items      : center;
 }
+
 .modal-content {
     background-color : white;
-    width : 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
-    font-size: var(--modal-content-font-size);
+    width            : 100%;
+    height           : 50%;
+    display          : flex;
+    flex-direction   : column;
+    justify-content  : center;
+    align-items      : center;
+    padding          : 5rem;
+    font-size        : var(--modal-content-font-size);
 }
+
 .close {
-    position: absolute;
-    top: 25%;
-    font-size: var(--close-font-size);
-    cursor: pointer;
+    position  : absolute;
+    top       : 25%;
+    font-size : var(--close-font-size);
+    cursor    : pointer;
 }
+
 .close:hover {
-    color: #880044;
+    color : #880044;
 }
+
 .english {
-    margin-bottom: 1em;
-    font-size: 1.9em;
+    margin-bottom : 1em;
+    font-size     : 1.9em;
 }
+
 .spanish {
-    font-size: 1.9em;
+    font-size : 1.9em;
 }
+
 header {
     position         : fixed;
     background-color : transparent;
     width            : 100%;
     height           : 10%;
     z-index          : 30;
-    overflow: hidden;
+    overflow         : hidden;
 
 }
 
@@ -89,17 +100,19 @@ header.colored {
 .drillingmudmex {
     font-size : 3rem;
     color     : white;
-    position: absolute;
+    position  : absolute;
 }
+
 .drillingmudmexlogo {
-    width: 200px;
-    height: 200px;
-    background-image : url("images/DMMmag.png");
-    background-size : contain;
+    width             : 200px;
+    height            : 200px;
+    background-image  : url("images/DMMmag.png");
+    background-size   : contain;
     background-repeat : no-repeat;
-    position: relative;
-    left: 5%;
+    position          : relative;
+    left              : 5%;
 }
+
 .right {
     position : relative;
     left     : 40.8%;
@@ -190,15 +203,16 @@ li {
 }
 
 .weare {
-    position  : relative;
-    top       : 15%;
-    left      : 19%;
-    display   : block;
-    width     : 67%;
-    height    : 10%;
-    color     : white;
+    position   : relative;
+    top        : 15%;
+    left       : 19%;
+    display    : block;
+    width      : 67%;
+    height     : 10%;
+    color      : white;
     /* transform: translate(-50%,-50%); */
-    font-size : 1.8rem;
+    font-size  : 1.8rem;
+    text-align : center;
 }
 
 .start {
@@ -211,7 +225,7 @@ li {
     border-color     : white;
     background-color : transparent;
     border-radius    : 50px;
-    cursor: pointer;
+    cursor           : pointer;
 }
 
 .mud3 {
@@ -314,7 +328,7 @@ li {
     margin      : 2rem;
     box-shadow  : none;
     background  : none;
-    top         : -102.5%;
+    top         : -673px;
     left        : 58%;
 }
 
@@ -649,33 +663,33 @@ p {
 
 .mfac1 {
 
-    top  : -78%;
+    top  : -380px;
     left : 20%;
 }
 
 .mfac2 {
     position : absolute;
-    top      : 35%;
+    top      : 170px;
     left     : 20%;
 }
 
 .mfac3 {
     position : absolute;
-    top      : 54%;
+    top      : 265px;
     left     : 20%;
 }
 
 .mfac4 {
     position : absolute;
 
-    top      : 70%;
+    top      : 340px;
     left     : 20%;
 
 }
 
 .mfac5 {
     position : absolute;
-    top      : 85%;
+    top      : 423px;
     left     : 20%;
 }
 
@@ -813,7 +827,7 @@ p {
     -1px 1px 1px #000,
     1px -1px 1px #000;
     font-size     : 1.2rem;
-    cursor: pointer;
+    cursor        : pointer;
 
 
 }
@@ -834,17 +848,19 @@ p {
 
 .bftitle {
     position        : relative;
-    top             : 20%;
+    top             : 35px;
     display         : flex;
     justify-content : center;
+    font-size       : 2rem;
 }
 
 .bftext {
     margin     : auto;
     position   : relative;
-    top        : 40%;
-    width      : 45%;
-    text-align : center;
+    top        : 65px;
+    width      : 90%;
+    text-align : justify;
+    font-size  : 1.5rem;
 }
 
 /*----------------*/
@@ -956,7 +972,7 @@ p {
     border        : 2px solid #D5BAA1;
     border-radius : 100%;
     position      : relative;
-    top           : -29.4%;
+    top           : -240px;
     left          : 19.5%;
     overflow      : hidden;
 
@@ -984,7 +1000,7 @@ p {
     border        : 2px solid #D5BAA1;
     border-radius : 100%;
     position      : relative;
-    top           : -49.4%;
+    top           : -400px;
     left          : 57.3%;
     overflow      : hidden;
 
@@ -1161,7 +1177,7 @@ fieldset {
 
 .initialdenplaceholder {
     position : absolute;
-    top      : 27%;
+    top      : 86px;
     left     : 5%;
 }
 
@@ -1183,7 +1199,7 @@ fieldset {
 
 .finaldenplaceholder {
     position : absolute;
-    top      : 44%;
+    top      : 140px;
     left     : 5%;
 }
 
@@ -1213,7 +1229,7 @@ fieldset {
     position      : absolute;
     color         : #904761;
     text-align    : right;
-    top           : 79%;
+    top           : 252px;
     left          : 68.4%;
     width         : 28%;
     border-radius : 5px;
@@ -1436,7 +1452,7 @@ fieldset {
     position      : absolute;
     color         : #904761;
     text-align    : right;
-    top           : 79%;
+    top           : 252px;
     left          : 68.4%;
     width         : 28%;
     border-radius : 5px;
@@ -2185,7 +2201,7 @@ fieldset {
     width                      : 119px;
     height                     : 88px;
     position                   : absolute;
-    top                        : 46%;
+    top                        : 90px;
     left                       : 24%;
     background-color           : #B3541E;
     border-bottom-right-radius : 15px;
@@ -2969,7 +2985,7 @@ fieldset {
 
 
 .respuesta {
-    font-size  : 1.5rem;
+    font-size  : 1.3rem;
     height     : 30px;
     transition : .5s;
     opacity    : 1;
@@ -3135,7 +3151,7 @@ fieldset {
     width            : 220%;
     height           : 354px;
     position         : relative;
-    top              : -30.3%;
+    top              : -166.8px;
     left             : -43%;
     transform        : rotateZ(-21.4deg);
     z-index          : 10;
@@ -3158,7 +3174,7 @@ fieldset {
     height            : 350px;
     background-size   : contain;
     position          : absolute;
-    top               : 841%;
+    top               : 6069px;
     left              : 40%;
     z-index           : 20;
 }
@@ -3175,7 +3191,7 @@ fieldset {
 .name {
     font-size : 4rem;
     position  : absolute;
-    top       : 833%;
+    top       : 6010px;
     left      : 30%;
     z-index   : 20;
 }
@@ -3183,7 +3199,7 @@ fieldset {
 .ocupation {
     font-size : 1.5rem;
     position  : absolute;
-    top       : 845%;
+    top       : 6083px;
     left      : 31%;
     z-index   : 20;
 }
@@ -3191,7 +3207,7 @@ fieldset {
 .ocupation2 {
     font-size : 1.5rem;
     position  : absolute;
-    top       : 850%;
+    top       : 6123px;
     left      : 33%;
     z-index   : 20;
 }
@@ -3200,7 +3216,7 @@ fieldset {
     width      : 70px;
     height     : 70px;
     position   : absolute;
-    top        : 894%;
+    top        : 6450px;
     left       : 33%;
     opacity    : .2;
     transform  : scale(.8);
@@ -3219,7 +3235,7 @@ fieldset {
     width             : 70px;
     height            : 70px;
     position          : absolute;
-    top               : 894%;
+    top               : 6450px;
     left              : 40.4%;
     opacity           : .2;
     transform         : scale(.8);
@@ -3233,7 +3249,7 @@ fieldset {
     width     : 70px;
     height    : 70px;
     position  : absolute;
-    top       : 894%;
+    top       : 6450px;
     left      : 55%;
     opacity   : .2;
     transform : scale(.8);
@@ -3247,7 +3263,7 @@ fieldset {
     width     : 70px;
     height    : 70px;
     position  : absolute;
-    top       : 894%;
+    top       : 6450px;
     left      : 62.3%;
     opacity   : .2;
     transform : scale(.8);
@@ -3265,7 +3281,7 @@ fieldset {
     width             : 70px;
     height            : 70px;
     position          : absolute;
-    top               : 894%;
+    top               : 6450px;
     left              : 47.6%;
     opacity           : .2;
     transform         : scale(.8);
@@ -3303,4 +3319,10 @@ fieldset {
     background-image  : url("images/DMMcream.png");
     background-size   : contain;
     background-repeat : no-repeat;
+}
+
+/*final problems fix*/
+
+.special {
+    font-style : italic;
 }
