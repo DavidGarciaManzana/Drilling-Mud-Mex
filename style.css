@@ -175,7 +175,7 @@ li {
 .first {
     height            : 100vh;
     width             : 98.9vw;
-    background-image  : url("images/oil3.jpg");
+    background-image  : url("images/oil3.webp");
     background-size   : 100% 100%;
     background-repeat : no-repeat;
 }
@@ -299,7 +299,7 @@ li {
 }
 
 .front {
-    background-image  : url("images/drilling3.jpg");
+    background-image  : url("images/drilling3.webp");
     background-size   : contain;
     background-repeat : no-repeat;
 }
@@ -348,7 +348,7 @@ li {
 }
 
 .front2 {
-    background-image  : url("images/drilling1.jpg");
+    background-image  : url("images/drilling1.webp");
     background-size   : contain;
     background-repeat : no-repeat;
 }
@@ -535,7 +535,7 @@ p {
 
     width             : 36%;
     height            : 50%;
-    background-image  : url("images/drill 4.jpg");
+    background-image  : url("images/drill4.webp");
     background-repeat : no-repeat;
     background-size   : 100% 100%;
 }
@@ -766,7 +766,7 @@ p {
 .rigscroll {
 
     height                : 65vh;
-    background-image      : url("images/rig.jpg");
+    background-image      : url("images/rig.webp");
     background-attachment : fixed;
     background-size       : cover;
     background-repeat     : no-repeat;
@@ -921,6 +921,7 @@ p {
 
 .densitytitle.animated, .densitytext.animated, .densitytext2.animated, .densitytext3.animated {
     animation : problematic 1s;
+    color     : rgb(255, 255, 255)
 }
 
 @keyframes problematic {
@@ -944,7 +945,7 @@ p {
 
 
 .poorimg {
-    background-image  : url("images/poor.jpg");
+    background-image  : url("images/poor.webp");
     width             : 148%;
     height            : 121%;
     position          : relative;
@@ -982,7 +983,7 @@ p {
 }
 
 .richimg {
-    background-image  : url("images/rich.jpg");
+    background-image  : url("images/rich.webp");
     width             : 148%;
     height            : 121%;
     position          : relative;
@@ -1044,6 +1045,7 @@ p {
 .page1 > span {
     position : relative;
     top      : -5%;
+    color    : #904761;
 }
 
 .page2 {
@@ -1070,7 +1072,7 @@ p {
     position : relative;
     top      : 15%;
     left     : 37%;
-    color    : white;
+    color    : #904761;
 }
 
 .hidden {
@@ -3183,7 +3185,7 @@ fieldset {
 }
 
 .profileimg {
-    background-image  : url("images/profile.jpeg");
+    background-image  : url("images/profile.webp");
     background-repeat : no-repeat;
     width             : 350px;
     height            : 350px;
@@ -3282,7 +3284,7 @@ fieldset {
     height    : 70px;
     position  : absolute;
     top       : -20px;
-    right: 170px;
+    right     : 170px;
     opacity   : .2;
     transform : scale(.8);
     z-index   : 40;
